@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>我的博客</title>
+    <link>https://originem0.github.io/sam-blog/</link>
+    <description>Recent content on 我的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 21 Jun 2023 20:46:37 +0800</lastBuildDate><atom:link href="https://originem0.github.io/sam-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>hugo使用指南</title>
+      <link>https://originem0.github.io/sam-blog/posts/my-first-post/</link>
+      <pubDate>Wed, 21 Jun 2023 20:46:37 +0800</pubDate>
+      
+      <guid>https://originem0.github.io/sam-blog/posts/my-first-post/</guid>
+      <description>
+        
+          
+            hugo使用指南 在windows上下载与安装 https://gohugo.io/installation/windows/
+要使用命令行工具，可选择安装scoop工具，并把scoop安装路径C:\Users\Administrator\scoop\shims;添加到path中，即可在命令行中使用。
+scoop install hugo-extended #下载 下载的位置是C:\Users\Administrator\scoop\apps文件夹中。会下载成一个hugo.exe
+hugo version #检验是否安装成功 快速开始 https://gohugo.io/getting-started/quick-start/
+Create a site hugo new site quickstart #创建 cd quickstart git init git submodule add https://github.com/chipzoller/hugo-clarity.git themes/hugo-clarity #hugo-clarity是你在选的主题 Configure the site 打开hugo.toml
+baseURL = &amp;#39;http://example.org/&amp;#39; #注意必须以斜杠结尾 languageCode = &amp;#39;en-us&amp;#39; title = &amp;#39;My New Hugo Site&amp;#39; theme = &amp;#39;hugo-clarity&amp;#39; #指定主题名 Add content hugo new posts/my-first-post.md 打开content\posts路径下的my-first-post.md
+--- title: &amp;#34;My First Post&amp;#34; date: 2022-11-20T09:03:20-08:00 draft: true --- 前言中的草稿值为真。默认情况下，Hugo 不会在您构建网站时发布草稿内容。任选下面命令中的一个，在运行时就会发布draft为真的内容了。
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>其他</title>
+      <link>https://originem0.github.io/sam-blog/posts/my-second-post-/</link>
+      <pubDate>Wed, 21 Jun 2023 20:46:37 +0800</pubDate>
+      
+      <guid>https://originem0.github.io/sam-blog/posts/my-second-post-/</guid>
+      <description>
+        
+          
+            https://www.youtube.com/playlist?list=PLnrGn4P6C4P6yasdEJnEUhueTjCGXGuFe 完整的Web应用程序教程，具有Go，Vue，Node，React和Typescript。 学习使用Traefik反向代理提供的路由在Docker容器内部署应用程序。 学习应用程序架构设计和单元测试。
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
